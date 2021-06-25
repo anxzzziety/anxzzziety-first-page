@@ -1,0 +1,463 @@
+/* ================================= 
+  General Styles
+==================================== */
+
+* {
+    box-sizing:border-box;
+  }
+
+  a { 
+    color: red;
+    text-decoration: none;
+}
+
+.name {
+    margin: 0;
+  }
+
+body {
+    line-height: 1.6;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+   }
+
+   .container {
+    padding-left: 1em;
+    padding-right: 1em;
+    flex: 1;
+    }
+
+   
+ 
+  
+
+  /* ==========Header Line=================== */
+
+  .name {
+    color: yellow;
+    text-shadow: .5px 3px 0 rgb(73, 73, 23);
+    text-align: center;
+  }
+
+  .main-header {
+    background: rgb(82, 16, 16);
+    padding: 1em 0;
+  }
+
+  .main-nav a {
+    text-align: center;
+    display: block;
+    padding: 10px 15px;
+  }
+  a:hover{
+    border: 5px solid yellow;  
+   }
+
+  @media (min-width: 769px) {
+    .main-header, .main-nav {
+      display: flex;
+    }
+    .main-header {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  @media (min-width: 1025px) {
+    .main-header {
+      flex-direction: row;
+      justify-content: space-evenly;
+    }
+  }
+
+ 
+
+ 
+  
+  
+  /* ================Thailand Section============ */
+.Thailand {
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: inset 0 0 20px 10px blue;
+
+}
+  /*=============GSM Section====================*/
+  .GSM {
+      background-color: green;
+      border-radius: 10px;
+      text-align: center;
+  }
+
+
+  /*=================Footer====================*/
+
+  .main-footer {
+    text-align: center;
+      padding: 2em 0;
+      background: maroon;
+      color: white;
+  }
+  
+ 
+  
+  /* ================================= 
+    Base Layout Styles
+  ==================================== */
+  
+  /* ---- Navigation ---- */
+  
+ 
+  
+  
+  
+    /* ---- Media Queries ---- */
+  
+  @media (min-width: 769px) {
+    .container {
+    width: 70%;
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+  }
+  /*----------------------------------*/
+/* ---- Thailand Page Styling Below ---- */
+ /*----------------------------------*/
+
+/* ---- Thailand Page Header ---- */
+ .link { 
+  color: blue;
+  text-decoration: none;
+  font-weight: 750;
+}
+
+.nameT {
+  margin: 0;
+  font-weight: 1000;
+}
+
+body {
+  line-height: 1.6;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ }
+
+.nameT {
+  color: red;
+  text-shadow: .5px 3px 0 rgb(73, 73, 23);
+  text-align: center;
+}
+
+.main-headerT {
+  background: white;
+  padding: 1em 0;
+  box-shadow: inset 0 0 20px 10px blue;
+}
+
+.main-nav .link {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+.link:hover{
+  border: 5px solid red;  
+ }
+
+@media (min-width: 769px) {
+  .main-headerT, .main-nav {
+    display: flex;
+  }
+  .main-headerT {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .main-headerT {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+/* ---- Thailand The Good ---- */
+.containerT {
+  background-color: green;
+  border-radius: -5px;
+  text-align: center;
+  color: white;
+  box-sizing: content-box;
+ }
+ p {
+  margin: 0;
+  text-indent: 3ch;
+}
+
+/* ---- Thailand Page Photos ---- */
+.pics {   
+  width: 15%;
+  margin: 0 4%;
+  text-align:center;
+}
+
+/* ---- Thailand The Bad ---- */
+.containerTB {
+  background-color: red;
+  border-radius: -5px;
+  text-align: center;
+  color: white;
+  box-sizing: content-box;
+ }
+ p {
+  margin: 0;
+  text-indent: 3ch;
+}
+
+
+/* ---- Thailand Page Footer ---- */
+.main-footerT {
+  text-align: center;
+    padding: 2em 0;
+    background: rgb(204, 204, 51);
+    color: white;
+}
+.linkF { 
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkF:hover{
+  border: 5px solid red;  
+ }
+  /*----------------------------------*/
+/* ---- GSM Page Styling Below ---- */
+ /*----------------------------------*/
+ * {
+  box-sizing:border-box;
+}
+
+.linkG { 
+  color: red;
+  text-decoration: none;
+  font-weight: 750;
+  text-decoration: solid;
+}
+ .nameG {
+  margin: 0;
+}
+
+ /* ---- GSM Page Header ---- */
+ .linkG .linkGT { 
+  color: blue;
+  text-decoration: none;
+  font-weight: 750;
+  text-decoration: solid;
+}
+
+.nameG {
+  margin: 0;
+  font-weight: 1000;
+}
+
+body {
+  line-height: 1.6;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+ }
+
+.nameG {
+  color: green;
+  text-shadow: .5px 3px 0 rgb(73, 73, 23);
+  text-align: center;
+}
+
+/*.main-headerG {
+  background: white;
+  padding: 1em 0;
+  box-shadow: inset 0 0 20px 10px blue;
+}*/
+#header-backgroundG {
+  background:url(../img/smoky/clingmans-dome2.jpg);
+  padding: 1em 0;
+ }
+
+.main-navG .linkGT {
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+.linkGT:hover{
+  border: 5px solid green;  
+ }
+
+@media (min-width: 769px) {
+  .main-headerG, .main-navG, #header-backgroundG {
+    display: flex;
+  }
+  .main-headerG {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .main-headerG, #header-backgroundG {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+}
+
+
+
+
+
+  
+/* ---- GDM The Good ---- */
+
+
+/* ---- GSM Page Photos ---- */
+
+
+
+
+/* ---- GSM The Bad ---- */
+
+
+
+/* ---- GSM Page Footer ---- */
+.main-footerG {
+  text-align: center;
+    padding: 2em 0;
+    background: green;
+    color: white;
+}
+.linkG { 
+  color: red;
+  text-decoration: none;
+  cursor: pointer;
+}
+.linkG:hover{
+  border: 5px solid red;  
+ }
+
+ /* ---------------------------------- ---- */
+   /* ---- Contact Page Styling Below ---- */
+ /* ---- ------------------------------ ---- */
+   * {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Nunito', sans-serif;
+    color: black;
+    padding: 40px 0 60px;
+  }
+  h1 {
+    margin: 0 0 30px 0;
+    text-align: center;
+  }
+  
+  /* Main -------------------- */
+  
+  #container {
+    width: 92%;
+    margin: auto;
+  }
+  .btn {
+    font-size: 0.875em;
+    font-weight: 400;
+    cursor: pointer; 
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+    margin: .5em 0 1em;
+    text-transform: uppercase;
+  }
+  .btn:hover { 
+    opacity: .75; 
+  }
+  .default {
+    background-color: green; 
+  }
+  .error {
+    background-color: #ff784f; 
+  }
+  
+  /* Form -------------------- */
+  
+  .form-contact {
+    padding: 20px 24px;
+    background: lightgray;
+    
+  }
+  label {
+    display: block;
+    margin-bottom: 0.5em; 
+  }
+  label:last-of-type {
+   margin-top: 1.1em;
+  }
+  input,
+  textarea  {
+    outline: 0;
+    border: none;
+    padding: 15px;
+    border-radius: .3em;
+    border-bottom: 3px solid rgba(0,0,0,0.05);
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  textarea {
+    font-size: 1em;
+    color: #222;
+    font-weight: 300; 
+    width: 100%;
+    height: auto;
+    margin-bottom: 1.2em;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.08) inset;
+  }
+  form > a {
+    font-size: .85em;
+  }
+  input[type="checkbox"] + label {
+    font-weight: 300;
+    font-size: .85em;
+    display: inline;
+    padding-left: 5px;
+  }
+  
+  /* Media Queries -------------------- */
+  
+  @media (min-width: 769px) {
+    #container {
+      max-width: 550px;
+    }
+  }
+
+  /* UI element states pseudo-classes ------------ */
+
+
+/*gives the text area a border color when selected*/
+input:focus,
+textarea:focus { 
+  border-color: green;
+}
+
+/*changes color of disabled area*/
+ input:disabled {
+  background: lightgrey;
+}
+
+/*makes checked text bold*/
+input[type="checkbox"]:checked + label {
+  font-weight: bold;
+}
+
+  /* ---- Contact Page End ---- */
