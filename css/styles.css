@@ -319,15 +319,32 @@ body {
 
   
 /* ---- GDM The Good ---- */
-
+.containerG {
+  background-color: green;
+  border-radius: -5px;
+  text-align: center;
+  color: white;
+  box-sizing: content-box;
+ }
 
 /* ---- GSM Page Photos ---- */
-
+ .gsmP {   
+  width: 15%;
+  margin: 0 4%;
+  text-align:center;
+  display: table;
+} 
 
 
 
 /* ---- GSM The Bad ---- */
-
+.containerGB {
+  background-color: red;
+  border-radius: -5px;
+  text-align: center;
+  color: white;
+  box-sizing: content-box;
+ }
 
 
 /* ---- GSM Page Footer ---- */
@@ -343,7 +360,7 @@ body {
   cursor: pointer;
 }
 .linkG:hover{
-  border: 5px solid red;  
+  border: 5px solid whitesmoke;  
  }
 
  /* ---------------------------------- ---- */
