@@ -204,6 +204,7 @@ body {
   text-align:center;
 }
 
+
 /* ---- Thailand The Bad ---- */
 .containerTB {
   background-color: red;
@@ -231,7 +232,7 @@ body {
   cursor: pointer;
 }
 .linkF:hover{
-  border: 5px solid red;  
+  border: 5px solid whitesmoke;  
  }
   /*----------------------------------*/
 /* ---- GSM Page Styling Below ---- */
