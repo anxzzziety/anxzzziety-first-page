@@ -198,7 +198,7 @@ body {
 }
 
 /* ---- Thailand Page Photos ---- */
-@media (min-width: 769px) {
+/* ----@media (min-width: 769px) {
   .mainT {
     display: flex;
   }
@@ -212,12 +212,7 @@ body {
   .mainT {
     flex-direction: row;
     justify-content: space-evenly;
-  }
-.pics {   
-  width: 15%;
-  margin: 0 4%;
-  text-align:center;
-}
+  }---- */
 .linkTP { 
   color: blue;
   text-decoration: none;
