@@ -230,6 +230,11 @@ body {
   box-shadow: 0 5px 25px blue;
  }
 
+ .lizard {
+  width: 75%;  
+  aspect-ratio: 16 /9;
+
+ }
 
 
 /* ---- Thailand The Bad ---- */
