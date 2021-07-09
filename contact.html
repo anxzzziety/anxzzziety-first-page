@@ -10,9 +10,9 @@
 <body>
 	<header class="main-header">
 		<ul class="main-nav">
-			<li><a href="index.html">Anxzzziety's Place</a></li>
-			<li><a href="thailand.html">Thailand</a></li>
-			<li><a href="gsm.html">GSM</a></li>
+			<li><a class="contactL" href="index.html">Anxzzziety's Place</a></li>
+			<li><a class="contactL" href="thailand.html">Thailand</a></li>
+			<li><a class="contactL" href="gsm.html">GSM</a></li>
 			
 			
 		
@@ -23,16 +23,20 @@
 		  <p>Contact form currently does not work and is "Under Construction"</p>
 		  
 		  <label for="name">Name:</label> 
-		  <input type="text" id="name">
+		  <input type="text" id="name" value="name">
+
+		  <label for="location">Enter your City and State or Province and Country</label> 
+		  <input type="text" id="location" value="location">
 
      	  <label for="email">Email:</label>
-     	  <input type="email" id="email" placeholder="email@website.com">
+     	  <input type="email" id="email" placeholder="email@website.com" value="email">
   		
-		  <label for="msg">Question?:</label>			
- 		  <textarea id="msg" rows="4"></textarea>
+		  <label for="msg">Question?:</label>
+		  <textarea value="msg" id="msg" rows="4"></textarea>
 			
 		  <input class="btn default" type="submit" value="Submit">
 		</form>
+		
 	</div>
 </body>
 </html>
