@@ -310,15 +310,9 @@ body {
   text-align: center;
 }
 
-/*.main-headerG {
-  background: white;
-  padding: 1em 0;
-  box-shadow: inset 0 0 20px 10px blue;
-}*/
 #header-backgroundG {
   background:url(../img/smoky/clingmans-dome2.jpg);
-  padding: 1em 0;
- }
+}
 
 .main-navG .linkGT {
   text-align: center;
@@ -402,6 +396,10 @@ body {
    * {
     box-sizing: border-box;
   }
+  .contactL {
+    color: white;
+  }
+  
   body {
     font-family: 'Nunito', sans-serif;
     color: black;
