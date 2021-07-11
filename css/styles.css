@@ -362,6 +362,13 @@ body {
   display: table;
 } 
 
+#gsmP {
+  width: 50%;
+  margin: 0 4%;
+  text-align:center;
+  display: table;
+}
+
 
 
 /* ---- GSM The Bad ---- */
