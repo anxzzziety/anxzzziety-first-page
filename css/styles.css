@@ -51,6 +51,7 @@ body {
     display: block;
     padding: 10px 15px;
   }
+
   a:hover{
     border: 5px solid yellow;  
    }
@@ -358,16 +359,19 @@ body {
  }
 
 /* ---- GSM Page Photos ---- */
- .gsmP {   
-  width: 15%;
-  margin: 0 4%;
+.gsmP div img {
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+} 
+.gsmP {   
+  width: 80%;
+  margin: 0 auto;
   text-align:center;
   display: table;
 } 
 
 #gsmP {
-  width: 50%;
-  margin: 0 4%;
   text-align:center;
   display: table;
 }
