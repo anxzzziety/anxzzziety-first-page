@@ -233,12 +233,63 @@ body {
   border: 4px solid red;
   box-shadow: 0 5px 25px blue;
  }
+/* animals */
 
+.h1TA {
+  align-items: center;
+  background-color: green;
+}
+
+ul.thumbAT {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.thumbAT li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+ul.thumbAT li img {
+  border: 4px solid red;
+  box-shadow: 0 5px 25px blue;
+ }
  .lizard {
   width: 75%;  
   aspect-ratio: 16 /9;
  }
 
+/* Street Art */
+ 
+.h1TSA {
+  align-items: center;
+  background-color: green;
+}
+
+ul.thaiSA {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+ul.thaiSA li {
+  list-style: none;
+  margin: 0 10px;
+}
+
+ul.thaiSA li img {
+  border: 4px solid red;
+  box-shadow: 0 5px 25px blue;
+ }
+ 
+/* Schools */
  .h1T {
   align-items: center;
   background-color: green;
