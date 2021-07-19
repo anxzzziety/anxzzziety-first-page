@@ -74,7 +74,11 @@ body {
     
   }
 
- 
+ .pi {
+   text-align: left;
+   text-decoration: underline;
+   text-indent: 25px;
+ }
 
  
   
@@ -188,6 +192,12 @@ body {
     flex-direction: row;
     justify-content: space-evenly;
   }
+}
+
+.pt {
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 25px;
 }
 /* ---- Thailand The Good ---- */
 .containerT {
@@ -423,7 +433,11 @@ body {
   }
 }
 
-
+.pgsm {
+  text-align: left;
+  text-decoration: underline;
+  text-indent: 25px;
+}
 
 
 
