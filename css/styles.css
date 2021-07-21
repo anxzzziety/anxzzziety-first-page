@@ -226,6 +226,12 @@ ul.thaiinfo li img {
   box-shadow: 0 5px 25px blue;
  }
 
+ .thaitourism {
+  width: 75%;  
+  aspect-ratio: 16 /9;
+  margin: left 5oem;;
+ }
+
 /* ---- Thailand The Good ---- */
 .containerT {
   background-color: green;
