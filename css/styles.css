@@ -222,14 +222,14 @@ ul.thaiinfo li {
 }
 
 ul.thaiinfo li img {
-  border: 4px solid red;
-  box-shadow: 0 5px 25px blue;
+  border: 4px solid yellow;
+  box-shadow: 0 5px 25px red;
  }
 
  .thaitourism {
   width: 75%;  
   aspect-ratio: 16 /9;
-  margin: left 5oem;;
+  margin: left 5oem;
  }
 
 /* ---- Thailand The Good ---- */
