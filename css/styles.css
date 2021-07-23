@@ -207,6 +207,12 @@ body {
   background-color: yellow;
 }
 
+.h2Tmedia {
+  text-align: center;
+  background-color: yellow;
+  font-weight: 1000;
+}
+
 ul.thaiinfo {
   margin: 0 auto;
   padding: 0;
@@ -614,12 +620,12 @@ body {
   form > a {
     font-size: .85em;
   }
-  input[type="checkbox"] + label {
+  /* input[type="checkbox"] + label { 
     font-weight: 300;
     font-size: .85em;
     display: inline;
     padding-left: 5px;
-  }
+   } */
   
   /* Media Queries -------------------- */
   
