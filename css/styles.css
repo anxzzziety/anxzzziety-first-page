@@ -353,7 +353,7 @@ ul.thumbAT li img {
   box-shadow: 0 5px 25px blue;
  }
  .lizard {
-  width: 75%;  
+  width: 50%;  
   aspect-ratio: 16 /9;
  }
 
@@ -486,10 +486,17 @@ body {
   text-shadow: .5px 3px 0 rgb(73, 73, 23);
   text-align: center;
 }
-
+/* animation begin */
 #header-backgroundG {
   background:url(../img/smoky/clingmans-dome2.jpg);
+  animation:clouds_anim 30s linear infinite; 
 }
+@keyframes clouds_anim {
+  0%{background-position: 0 0;}
+  100%{background-position: -2122px 0;}
+}
+
+/* animation end */
 
 .main-navG .linkGT {
   text-align: center;
