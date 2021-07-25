@@ -63,6 +63,7 @@ body {
     margin: 20px;
     animation-name: hinge;
   }
+/* animation end */
 
   .main-header {
     background: rgb(82, 16, 16);
@@ -290,6 +291,7 @@ ul.thaiinfo li img {
   text-align: center;
   color: white;
   box-sizing: content-box;
+  padding-bottom: 1em;
  }
  p {
   margin: 0;
@@ -421,6 +423,7 @@ ul.schoolT li img {
   text-align: center;
   color: white;
   box-sizing: content-box;
+  padding-bottom: 1em;
  }
  p {
   margin: 0;
@@ -461,16 +464,16 @@ ul.schoolT li img {
 }
 
  /* ---- GSM Page Header ---- */
- .linkG .linkGT { 
-  color: blue;
-  text-decoration: none;
-  font-weight: 750;
-  text-decoration: solid;
+ .main-headerG {
+  padding: 3em 0;
 }
-
-.nameG {
+ 
+ .nameG {
   margin: 0;
   font-weight: 1000;
+  color: green;
+  text-shadow: .5px 3px 0 rgb(73, 73, 23);
+  text-align: center;
 }
 
 body {
@@ -481,11 +484,6 @@ body {
   min-height: 100vh;
  }
 
-.nameG {
-  color: green;
-  text-shadow: .5px 3px 0 rgb(73, 73, 23);
-  text-align: center;
-}
 /* animation begin */
 #header-backgroundG {
   background:url(../img/smoky/clingmans-dome2.jpg);
@@ -540,6 +538,7 @@ body {
   text-align: center;
   color: white;
   box-sizing: content-box;
+  padding-bottom: 1em;
  }
 
 /* ---- GSM Page Photos ---- */
@@ -569,6 +568,7 @@ body {
   text-align: center;
   color: white;
   box-sizing: content-box;
+  padding-bottom: 1em;
  }
 
 
