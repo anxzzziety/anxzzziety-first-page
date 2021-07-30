@@ -41,7 +41,7 @@ body {
     text-align: center;
     margin-top: 56px;
     color: yellow;
-    font-size: 2.5em;
+    font-size: 3em;
     font-family: sans-serif;
     text-transform: uppercase;
   }
@@ -185,7 +185,7 @@ body {
   text-align: center;
   margin-top: 56px;
   color: red;
-  font-size: 2.5em;
+  font-size: 3.5em;
   font-family: sans-serif;
   text-transform: uppercase;
 }
@@ -491,10 +491,6 @@ ul.schoolT li img {
   font-weight: 750;
   text-decoration: solid;
 }
- .nameG {
-  margin: 0;
-}
-
  /* ---- GSM Page Header ---- */
  .main-headerG {
   padding: 3em 0;
@@ -506,6 +502,7 @@ ul.schoolT li img {
   color: green;
   text-shadow: .5px 3px 0 rgb(73, 73, 23);
   text-align: center;
+  font-size: 3em;
 }
 
 body {
