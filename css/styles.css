@@ -246,6 +246,38 @@ body {
   text-indent: 25px;
 }
 
+/* ---- Thailand temperature conversion ---- */
+
+.tempBoxHeader {
+  margin: 0 0;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  background-color: blue;
+}
+
+.tempSection {
+  margin: 0 0;
+  padding: -2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  background-color: blue;
+  text-align: left;
+
+}
+
+.Tbox:hover {
+  border: 5px solid red;
+}
+
 /* ---- Thailand media and travel info ---- */
 
 .h1Tmedia {
