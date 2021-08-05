@@ -257,10 +257,44 @@ body {
   justify-content: center;
   font-weight: 700;
   color: white;
-  background-color: blue;
+  background-color: red;
 }
 
 .tempSection {
+  margin: 0 0;
+  padding: -2em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  background-color: red;
+  text-align: left;
+
+}
+
+.Tbox:hover {
+  border: 5px solid blue;
+}
+
+
+
+/* ---- Thailand distance conversion ---- */
+
+.distBoxHeader {
+  margin: 0 0;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  color: white;
+  background-color: blue;
+}
+
+.distSection {
   margin: 0 0;
   padding: -2em;
   display: flex;
@@ -274,7 +308,7 @@ body {
 
 }
 
-.Tbox:hover {
+.Dbox:hover {
   border: 5px solid red;
 }
 

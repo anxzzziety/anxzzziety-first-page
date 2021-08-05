@@ -39,6 +39,54 @@
       </div>
       <script src="js/thai.js"></script>
 
+      <h2 class="distBoxHeader">Distance Conversions</h2>
+      <div class="distSection">
+        
+        <div class="distBox">
+          <label>Inches</label>
+          <input class="Dbox" id="inputI" type="number" placeholder="Inches" oninput="lengthConverterI(this.value)" onchange="lengthConverter(this.value)">
+                    
+          <p>CM: <span id="outputcm"></span></p>
+        </div>  
+
+        <div class="distBox">
+          <label>CM</label>
+          <input class="Dbox" id="inputCM" type="number" placeholder="CM" oninput="lengthConverterCM(this.value)" onchange="lengthConverter(this.value)">
+                    
+          <p>Inches: <span id="outputInches"></span></p>
+        </div>  
+        
+        <div class="distBox">
+          <label>Feet</label>
+          <input class="Dbox" id="inputF" type="number" placeholder="Feet" oninput="lengthConverterF(this.value)" onchange="lengthConverter(this.value)">
+          <p>Meters: <span id="outputMeters"></span></p>
+        </div>    
+        
+        <div class="distBox">
+          <label>Meters</label>
+          <input class="Dbox" id="inputM" type="number" placeholder="Meters" oninput="lengthConverterM(this.value)" onchange="lengthConverter(this.value)">
+                    
+          <p>Feet: <span id="outputFeet"></span></p>
+        </div>  
+
+        <div class="distBox">
+          <label>Miles</label>
+          <input class="Dbox" id="inputMiles" type="number" placeholder="Miles" oninput="lengthConverterMiles(this.value)" onchange="lengthConverter(this.value)">
+                    
+          <p>Kilometers: <span id="outputKilometers"></span></p>
+        </div>  
+
+        <div class="distBox">
+          <label>Kilometers</label>
+          <input class="Dbox" id="inputKilometers" type="number" placeholder="Kilometers" oninput="lengthConverterKilometers(this.value)" onchange="lengthConverter(this.value)">
+                    
+          <p>Miles: <span id="outputMiles"></span></p>
+        </div>  
+        
+      </div>
+      <script src="js/distance.js"></script>
+      
+
     <div class="thaidata">
       <h1 class="h1Tmedia">Travel News and Source Materials for Thailand</h1>
       <center><h2. class="h2Tmedia">Click a logo below to open the media content</h2.></center>
