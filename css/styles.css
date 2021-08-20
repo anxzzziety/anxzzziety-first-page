@@ -242,7 +242,7 @@ body {
 
 .pt {
   text-align: left;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-indent: 25px;
 }
 
@@ -350,7 +350,7 @@ ul.thaiinfo li img {
   margin: left 5oem;
  }
 
-/* ---- Thailand The Good ---- */
+/* ---- Thailand Do ---- */
 .containerT {
   background-color: green;
   border-radius: -5px;
@@ -363,6 +363,22 @@ ul.thaiinfo li img {
   margin: 0;
   text-indent: 3ch;
 }
+
+/* ---- Thailand Do Not ---- */
+.containerTB {
+  background-color: red;
+  border-radius: -5px;
+  text-align: center;
+  color: white;
+  box-sizing: content-box;
+  padding-bottom: 1em;
+ }
+ p {
+  margin: 0;
+  text-indent: 3ch;
+}
+
+
 
 /* ---- Thailand Page Photos ---- */
 
@@ -482,19 +498,7 @@ ul.schoolT li img {
   box-shadow: 0 5px 25px blue;
  }
 
-/* ---- Thailand The Bad ---- */
-.containerTB {
-  background-color: red;
-  border-radius: -5px;
-  text-align: center;
-  color: white;
-  box-sizing: content-box;
-  padding-bottom: 1em;
- }
- p {
-  margin: 0;
-  text-indent: 3ch;
-}
+
 
 
 /* ---- Thailand Page Footer ---- */
@@ -587,14 +591,14 @@ body {
 
 .pgsm {
   text-align: left;
-  text-decoration: underline;
+  /* text-decoration: underline; */
   text-indent: 25px;
 }
 
 
 
   
-/* ---- GDM The Good ---- */
+/* ---- GDM Do ---- */
 .containerG {
   background-color: green;
   border-radius: -5px;
@@ -604,7 +608,17 @@ body {
   padding-bottom: 1em;
  }
 
-/* ---- GSM Page Photos ---- */
+/* ---- GSM Do Not ---- */
+.containerGB {
+  background-color: red;
+  border-radius: -5px;
+  text-align: center;
+  color: white;
+  box-sizing: content-box;
+  padding-bottom: 1em;
+ }
+
+ /* ---- GSM Page Photos ---- */
 .gsmP div img {
   width: 70%;
   height: auto;
@@ -624,15 +638,7 @@ body {
 
 
 
-/* ---- GSM The Bad ---- */
-.containerGB {
-  background-color: red;
-  border-radius: -5px;
-  text-align: center;
-  color: white;
-  box-sizing: content-box;
-  padding-bottom: 1em;
- }
+
 
 
 /* ---- GSM Page Footer ---- */
