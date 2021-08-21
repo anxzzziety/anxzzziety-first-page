@@ -618,28 +618,39 @@ body {
   padding-bottom: 1em;
  }
 
- /* ---- GSM Page Photos ---- */
-.gsmP div img {
-  width: 70%;
-  height: auto;
-  margin: 0 auto;
-} 
-.gsmP {   
-  width: 80%;
-  margin: 0 auto;
-  text-align:center;
-  display: table;
-} 
+ 
+/* ---- GSM Roaring Fork Motor Trail ---- */
 
-#gsmP {
-  text-align:center;
-  display: table;
+.h1rf {
+  align-items: center;
+  background-color: rgb(85, 16, 16);
+  color: rgb(36, 184, 36);
 }
 
+ul.thumbrf {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
 
+ul.thumbAT li {
+  list-style: none;
+  margin: 0 10px;
+}
 
+ul.thumbrf li img {
+  border: 4px solid brown;
+  box-shadow: 0 5px 25px green;
+ }
 
+/* ---- GSM Cades Cove ---- */
 
+/* ---- GSM Tremont ---- */
+
+/* ---- GSM General ---- */
 
 /* ---- GSM Page Footer ---- */
 .main-footerG {
